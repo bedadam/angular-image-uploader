@@ -23,8 +23,7 @@ export class ImageListComponent implements OnInit {
  public deleteImage(id: string): void {
    this.dbService.delete('images', id).then(
      () => {
-         // adding alerts for now for just demo, not needed in real time
-       alert('Successfully deleted image!!');
+         // Fetch latest list of images from DB 
        this.onView();
      },
      error => {
