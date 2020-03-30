@@ -5,8 +5,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Functionality
 
  1. App provides "View Images" and "Upload Image" pages
- 2. View Images page displayes images from indexedDB (table:imagesDb). User can delete images from local database using "Delete" button.
- 3. Upload Image page provides functionality for user to select a image to upload.
+ 2. View Images page displays images from indexedDB (table:imagesDb). Users can delete images from the local database using "Delete" button.
+ 3. Upload Image page provides functionality for user to select an image to upload.
 
 Note: In this application ngx-indexed-db wrapper service is used to access IndexedDB. 
  
