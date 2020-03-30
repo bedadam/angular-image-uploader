@@ -1,14 +1,20 @@
-# AngularAndNodejs
+# AngularJS application to store images to local storage (indexedDB)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.3.
 
+## Functionality
+
+ 1. App provides "View Images" and "Upload Image" pages
+ 2. View Images page displayes images from indexedDB (table:imagesDb). User can delete images from local database using "Delete" button.
+ 3. Upload Image page provides functionality for user to select a image to upload.
+
+Note: In this application ngx-indexed-db wrapper service is used to access IndexedDB. 
+ 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
 ## Build
 
@@ -18,9 +24,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 ## Further help
 
