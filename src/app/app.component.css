@@ -1,0 +1,21 @@
+.main-container {
+    text-align: center;
+    font-family: Arial;
+}
+.main-header {
+    max-width: 500px;
+    margin: 50px auto;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Arial Black";
+    font-size: xx-large;
+}
+
+.nav-item {
+    font-family: "Arial Black";
+    font-size: large;
+    background-color: lightskyblue;
+}
+.image-list {
+    margin-right: 20px;
+}

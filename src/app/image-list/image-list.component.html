@@ -1,0 +1,12 @@
+<h1 class="images-uploaded-header">Here are your uploaded images...!!</h1>
+
+<ul class="image-list-group">
+  <!-- List Images -->
+  <li *ngFor="let image of imageList" class="image-list-item">
+    <div class="image-item-name"> {{image.imageName}} </div>
+    <img class="image"src="{{image.content}}"/>
+    <!-- Delete Image Button -->
+    <div><button class="image-action"(click)="deleteImage(image.id)">Delete</button></div>
+  </li>
+ </ul>
+

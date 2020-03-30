@@ -1,0 +1,9 @@
+<h1 class="upload-image-header">Click "Choose File" button to pick files and then hit upload</h1>
+<form class="upload-form" [formGroup] = "formGroup" (ngSubmit)="onSubmit()">
+ <!-- Select File -->
+ <input type="file" (change)="onFileChange($event)" />
+ <input type="submit" [disabled]="formGroup.invalid" value="Upload" />
+</form>
+
+
+

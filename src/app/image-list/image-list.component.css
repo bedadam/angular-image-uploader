@@ -1,0 +1,26 @@
+/* Styling to display images */
+.images-uploaded-header {
+font-size: medium;
+ margin: 20px 0px;
+ }
+.image-list-group {
+    padding: 0;
+}
+.image-list-item {
+    padding-bottom: 20px;
+}
+
+.image-action {
+    margin-top: 10px;
+    background-color: lightskyblue;
+    font-weight: bold;
+    font-family: Arial;
+    font-size: medium;
+    padding: 5px;
+    width: 150px;
+}
+.image {
+    width: 300px;
+    height: 200px;
+    text-align: left;
+}
